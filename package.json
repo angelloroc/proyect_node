@@ -1,0 +1,19 @@
+{
+  "name": "proyect_node",
+  "version": "1.0.0",
+  "description": "Primer proyecto en Node.js",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelloroc/proyect_node.git"
+  },
+  "author": "Angello Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelloroc/proyect_node/issues"
+  },
+  "homepage": "https://github.com/angelloroc/proyect_node#readme"
+}
