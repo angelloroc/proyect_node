@@ -1,0 +1,70 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- responsive behavior in mobile devices "viewport" -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Booststrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+
+  <body>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
+
+    <div class="jumbotron">
+      <h1> Hoteles</h1>
+    </div>
+  
+    <div class="container">
+      <div class="row">
+        <!-- "col-md-4" cada columna ocupará 4 de las 12 columnas disponibles -->
+        <div class="col-md-4"> 
+          <div class="card">
+            <img src="images/hotel1.jpg" class="card-img-top" alt="Hotel1">
+            <div class="card-body">
+              <h3 class="card-title">Hotel A</h3>
+              <p class="card-text">Este hotel cuenta con habitaciones de lujo con vista al mar, piscina al aire libre y servicio de spa de alta calidad </p>
+              <!-- 'btn' se utiliza para dar estilo al enlace y hacer que parezca un botón -->
+              <!-- # para referirse a si mismo, es decir, se recarga la misma página -->
+              <a href="#" class="btn btn-primary">Reserv now</a>
+            </div>
+          </div>
+          
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/hotel2.jpg" class="card-img-top" alt ="Hotel2">
+            <div class="card-body">
+              <h3 class="card-title">Hotel B</h3>
+              <p class="card-text">Ubicado en el centro de cuzco, este hotel te ofrece modernas instalaciones con una impresionante vista panorámica </p>
+              <a href="#" class="btn btn-primary">Reserv now</a> 
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/hotel3.jpg" class="card-img-top" alt="Hotel3">
+            <div class="card-body">
+              <h3 class="card-title"> Hotel C</h3>
+              <p class="card-text">Si busca un lugar tranquilo, este hotel rural es el ideal. Con una ubiacaión la montaña más hermosa y tranquila</p>  
+              <a href="#" class="btn btn-primary">Reserv now</a> 
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </body>
+</html>
