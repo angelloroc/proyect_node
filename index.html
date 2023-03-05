@@ -2,12 +2,16 @@
 <!doctype html>
 <html lang="en">
   <head>
+
     <meta charset="utf-8">
     <!-- responsive behavior in mobile devices "viewport" -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <!-- Booststrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Guia Hoteles</title>
+
+    <link rel="stylesheet" href="css/index.css">
   </head>
 
   <body>
@@ -19,16 +23,44 @@
     <div class="jumbotron">
       <h1> Hoteles</h1>
     </div>
+
+    <div class="container">
+      <div class = "row" >
+
+        <div class="col-sm">
+          <p>
+            <h3>¿Cómo funciona?</h3>
+            <p>Busca los hoteles  de tu preferencia</p>
+          </p>
+        </div>
+
+        <div class="col-sm">
+            <p>
+              <h3> ¿Dónde puedo reservar?</h3>
+              <p> Elige la ciudad que te interesa y luego realiza la reserva de tus datos</p>
+            </p>
+        </div>
+
+        <div class="col-sm">
+          <p>
+            <h3>¿Cómo pago?</h3>
+            <p>Utiliza tu medio de pago favorito</p>
+          </p>
+        </div>
+      </div>
+
+    </div>
   
     <div class="container">
-      <div class="row">
+      <!-- row -> grilla || d-flex -> flexible -->
+      <div class="d-flex"> 
         <!-- "col-md-4" cada columna ocupará 4 de las 12 columnas disponibles -->
-        <div class="col-md-4"> 
+        <div class="col-sm">  
           <div class="card">
             <img src="images/hotel1.jpg" class="card-img-top" alt="Hotel1">
             <div class="card-body">
               <h3 class="card-title">Hotel A</h3>
-              <p class="card-text">Este hotel cuenta con habitaciones de lujo con vista al mar, piscina al aire libre y servicio de spa de alta calidad </p>
+              <p class="card-text">Este hotel cuenta con habitaciones de lujo con vista al mar, piscina al aire libre y servicio de spa de alta calidad. </p>
               <!-- 'btn' se utiliza para dar estilo al enlace y hacer que parezca un botón -->
               <!-- # para referirse a si mismo, es decir, se recarga la misma página -->
               <a href="#" class="btn btn-primary">Reserv now</a>
@@ -37,24 +69,24 @@
           
         </div>
 
-        <div class="col-md-4">
+        <div class="col-sm">
           <div class="card">
             <img src="images/hotel2.jpg" class="card-img-top" alt ="Hotel2">
             <div class="card-body">
               <h3 class="card-title">Hotel B</h3>
-              <p class="card-text">Ubicado en el centro de cuzco, este hotel te ofrece modernas instalaciones con una impresionante vista panorámica </p>
+              <p class="card-text">Ubicado en el centro de cuzco, este hotel te ofrece modernas instalaciones con una impresionante vista.  </p>
               <a href="#" class="btn btn-primary">Reserv now</a> 
             </div>
           </div>
 
         </div>
 
-        <div class="col-md-4">
+        <div class="col-sm">
           <div class="card">
             <img src="images/hotel3.jpg" class="card-img-top" alt="Hotel3">
             <div class="card-body">
               <h3 class="card-title"> Hotel C</h3>
-              <p class="card-text">Si busca un lugar tranquilo, este hotel rural es el ideal. Con una ubiacaión la montaña más hermosa y tranquila</p>  
+              <p class="card-text">Si busca un lugar tranquilo, este hotel rural es el ideal. Con una ubicación en la montaña más hermosa y tranquila del país.</p>  
               <a href="#" class="btn btn-primary">Reserv now</a> 
             </div>
           </div>
@@ -64,7 +96,33 @@
       </div>
     </div>
 
+    <footer>
+      <div class= "row">
 
+        <div class= "col-sm-4 d-flex flex-column ">
+          <a href="https://es-la.facebook.com">facebook</a>
+          <a href="#">instagram</a>
+          <a href="#">youtbe</a>
+          <a href="#">linkedin</a>
+        </div>
+        
+        <div class= "col-sm-4 d-flex flex-column align-items-center">
+          <address>
+            <h3>Oficina Central</h3>
+            <p> Tucuman, 935, CABA</p>
+            <p> USA, +51256984568</p>
+            <p> contacto@gmail.com</p> 
+          </address>
+        </div>
+
+        <div class= "col-sm-4 d-flex flex-column align-items-center">
+          <a href="#">Nostros</a>
+          <a href="#">Precios</a>
+          <a href="#">Terminos de condiciones</a>
+          <a href="#">Contactanos</a>
+        </div>
+      </div>
+    </footer>
 
   </body>
 </html>
