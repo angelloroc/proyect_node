@@ -1,17 +1,25 @@
 
 
 .jumbotron {
-    background-color:rgb(126, 52, 231);
+    background-color:rgb(234, 219, 143);
     color: black;
+    margin-bottom: 30px;
 }
 
 .footer {
     margin-top: 30px;
     /* padding: 10px 10px 0px 10px; */
-    background-color: blueviolet;
+    background-color: rgb(234, 219, 143);
     /* margin-bottom: 0px; */
 }
 
 .card{
     padding: 2px 5px 2px 5px;
+    flex: 1 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-reserva{
+    width: 100%;
 }
